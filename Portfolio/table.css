@@ -1,0 +1,23 @@
+td {
+    border: solid .5px black;
+}
+tr.head {
+    font-weight: bold;
+    background-color: #2A363B;
+    color: white
+}
+tr.completed {
+    background-color: green;
+}
+tr.inprogress {
+    background-color: yellow;
+}
+tr.tbd {
+    background-color: red
+}
+
+.nav.navbar-nav li a {
+    color: #F5F5EF;
+}
+
+

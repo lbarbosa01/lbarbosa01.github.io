@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DND</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Jumbotron example · Bootstrap v5.2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js%22%3E">
+    </script>
+    <style>
+        .collapsible {
+            background-color: #000000;
+            cursor: pointer;
+            padding: 18px;
+            font-size: 22px;
+        }
+        .content {
+            padding: 0 15px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: black;
+            color: aquamarine;
+            font-size: 20px
+        }
+    </style>
+    <link href="dnd.css" rel="stylesheet">
+</head>
+<body  style="background-color: mediumaquamarine">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <img src="imgs/emblem.png" style="height: 100px; margin-left: 15px">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <span style="font-size: 23px">
+        <ul class="navbar-nav">
+            <div class="nav-item active menu menu1">
+                <a class="nav-link menu" href="dnd.html">Main Menu</a>
+            </div>
+            <div class="nav-item active menu">
+                <a class="nav-link menu" href="playerstats.html">Player Stats</a>
+            </div>
+            <div class="nav-item menu">
+                <a class="nav-link menu" href="characterref.html">NPCs</a>
+            </div>
+            <div class="nav-item menu">
+                <a class="nav-link menu" href="area.html">Areas</a>
+            </div>
+            <div class="nav-item menu" style="position: relative; bottom: 1px">
+              <button class="nav-link menu collapsible">Items</button>
+              <div class="content" style="position: static">
+                <ul class="simon">
+                      <li>Vjorden Dictionary</li>
+                    <li>Moon Stone</li>
+                </ul>
+                <ul class="lilnug">
+                  <li>Sketchy Potion</li>
+                  <li>Map of the Woods</li>
+                    <li>Wooden Flute</li>
+                </ul>
+                <ul class="hunter">
+                    <li>Commander's Sword</li>
+                </ul>
+                <ul class="ichigo">
+                  <li>Pocket Knife</li>
+                </ul>
+              </div>
+          </div>
+        </ul>
+        </span>
+    </div>
+</nav>
+
+<h1 class="campaign">Campaign: The Lost Lore</h1>
+
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 100%; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 620px; bottom: 85px">Central Isintris (Nirvana Falls)</h1>
+    <img src="imgs/areas/centralisintris.png" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 40px">
+    <div style=" position: relative; left: 525px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">This hidden area of Central Isintris protrudes
+                    an air of tranquility. Nirvana Falls is the perfect area to meditate or find
+                    oneself. However, visitors must be weary of violating village law.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: burlywood;
+color: black; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; left:630px; bottom: 85px">The Docks</h1>
+    <img src="imgs/lostlore/docs.png" style="height: 250px; width: 450px;
+        position: relative; bottom: 150px; left: 30px">
+    <div style=" position: relative; left: 510px; max-width: 450px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">A lively area with courteous
+                    neighbors. Most citizens of Nirvana Falls live in The Docks, and
+                    many have cultivated different hobbies to pass the time in the small village.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: steelblue;
+color: black; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; left:540px; bottom: 85px">Stone of the Ancients</h1>
+    <img src="imgs/lostlore/ancients.png" style="height: 250px; width: 450px;
+        position: relative; bottom: 150px; left: 30px">
+    <div style=" position: relative; left: 510px; max-width: 450px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The great stone pillar where the founders of
+                    Nirvana Falls rest. It's forbidden to enter this tomb: the last person
+                    who wondered in was never seen again.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: violet;
+color: black; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; left:590px; bottom: 85px">The Everspring</h1>
+    <img src="imgs/lostlore/everspring.png" style="height: 250px; width: 450px;
+        position: relative; bottom: 150px; left: 30px">
+    <div style=" position: relative; left: 510px; max-width: 450px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The greatest treasure of Nirvana Falls. Tales of
+                    enlightenment, healing, and miracles originate here. It's illegal to harm wild-life or desecrate the area in any way.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 400px; bottom: 85px">Headmaster BernSan</h1>
+    <img src="imgs/people/bensan.png" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 35px">
+    <div style=" position: relative; left: 260px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">His lack of personality and indifference to everyone
+                    makes him the least popular Headmaster of the Falls. He is in charge of documentation and
+                    administration.
+                </td>
+                <td class="center" style="vertical-align: middle">Alive</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 400px; bottom: 85px">Headmaster MaGa</h1>
+    <img src="imgs/people/maga.png" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 50px">
+    <div style=" position: relative; left: 260px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The most popular Headmaster of Nirvana Falls, mostly
+                    because of his leadership and demeanor. He is mostly in charge of business and economic policy.
+                    His position is arguably the most powerful of the Headmasters.
+                </td>
+                <td class="center" style="vertical-align: middle">Dead</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 400px; bottom: 85px">Headmaster DenBi</h1>
+    <img src="imgs/people/denbi.png" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 63px">
+    <div style=" position: relative; left: 260px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The arch-rival of Headmaster MaGa. He's been
+                    gaining traction as of late due to the strange events of Nirvana Falls.
+                </td>
+                <td class="center" style="vertical-align: middle">Alive</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 400px; bottom: 85px">Headmaster KamHala</h1>
+    <img src="imgs/people/kamhala.png" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 65px">
+    <div style=" position: relative; left: 260px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The Headmaster of domestic affairs and environmental policy.
+                    Citizens tread carefully around her since she's the strictest and most judgemental of the Headmasters despite
+                    her beauty.
+                </td>
+                <td class="center" style="vertical-align: middle">Alive</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div  class="container my-5 border rounded" style="background-color: black;
+color: white; max-width: 1000px; max-height: 300px; padding: 120px 0 120px 0">
+    <h1 style="position: relative; padding-left: 538px; bottom: 85px">Ivanka</h1>
+    <img src="imgs/people/ivanka.jpg" style="height: 250px;
+        position: relative; bottom: 150px; padding-right: 20px; left: 60px">
+    <div style=" position: relative; left: 260px; max-width: 700px; bottom: 315px">
+        <table class="table table-hover table-dark table-bordered table-striped">
+            <thead>
+            <tr style="color: gold">
+                <th scope="col" style="text-align: center">Description</th>
+                <th scope="col">Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="text-align: center">The pride and joy of Headmaster MaGa. She's always
+                    off adventuring in nature while her father works.
+                </td>
+                <td class="center" style="vertical-align: middle">Alive</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+</body>
+</html>

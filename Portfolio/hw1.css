@@ -1,0 +1,43 @@
+
+a:link {
+    display: block
+    width: 120px;
+    font-weight: bold;
+    color: #0000FF;
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left
+}
+a:visited {
+    color: #0000FF;
+}
+td {
+    border: solid .5px black;
+}
+img {float: right}
+tr.head {
+    font-weight: bold;
+}
+tr.completed {
+    background-color: green;
+}
+tr.inprogress {
+    background-color: yellow;
+}
+tr.tbd {
+    background-color: red
+}
+
+a.project {display: block
+    width: 120px;
+    font-weight: bold;
+    color: #FF0000;
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left}

@@ -1,0 +1,57 @@
+.menu {
+    color: hotpink;
+    padding-left: 15px;
+    padding-top: 15px
+}
+
+.call {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu1 {
+    padding-left: 6px;
+}
+.header {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.campaign {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-style: italic;
+}
+
+.item {
+    margin-left: 110px;
+    margin-top: 40px
+}
+
+.center {
+    text-align: center
+}
+
+.simon {
+    color: #c9e3ec;
+}
+
+.lilnug {
+    color: lightpink
+}
+
+.hunter {
+    color: beige
+}
+
+.ichigo {
+    color: lightslategray;
+}
